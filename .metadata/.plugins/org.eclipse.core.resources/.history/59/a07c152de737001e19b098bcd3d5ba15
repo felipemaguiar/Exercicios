@@ -1,0 +1,20 @@
+package cap04;
+
+import java.util.Scanner;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String name;
+		Double media;
+		
+		
+		
+		Student account1 = new Student("Felipe",22.5);
+		
+		
+		sc.close();
+	}
+}

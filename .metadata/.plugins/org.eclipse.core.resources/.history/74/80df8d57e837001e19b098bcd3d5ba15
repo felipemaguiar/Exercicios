@@ -1,0 +1,21 @@
+package cap04;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+				
+		Student account1 = new Student("Felipe",62.5);
+		Student account2 = new Student("Mel",92.5);
+		
+		System.out.printf("%s's letter grade is: %s%n", account1.getName(), account1.getLetterGrade());
+		System.out.printf("%s's letter grade is: %s%n", account2.getName(), account2.getLetterGrade());
+		
+		sc.close();
+	}
+}

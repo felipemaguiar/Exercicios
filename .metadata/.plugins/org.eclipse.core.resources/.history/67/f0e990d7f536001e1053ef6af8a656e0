@@ -1,0 +1,21 @@
+package cap03;
+
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//Cria um objeto Account e o atribui a minhaConta
+		Account minhaConta = new Account();
+		
+		//Exibe o valor inicial do nome (null)
+		System.out.printf("Nome inicial é: %s%n%n", minhaConta.getName());
+		
+		sc.close();
+
+		
+	}
+
+}

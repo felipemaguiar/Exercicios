@@ -1,0 +1,64 @@
+package cap03;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//interface gráfica GUI
+		
+		//pedir para o usuario inserir seu nome
+		String nome = JOptionPane.showInputDialog("Nome:");
+		
+		//Criar uma mensagem
+		String message = String.format("Bem vindo, %s, ao Banco!", nome);
+		
+		// exibindo a mensagem para cumprimentar o usuário pelo nome
+		JOptionPane.showMessageDialog(null, message);
+		
+		//pedir para o usuario inserir um valor
+		//pedir para o usuario inserir seu nome
+		String valor = JOptionPane.showInputDialog("Valor $");
+		
+
+		
+		Account account1 = new Account(nome, Double.parseDouble(valor)); // Transformar String em double 	Double.parseDouble(valor)	
+		Account account2 = new Account("Mel", -50);
+		
+		
+		
+		
+		
+		// exibe saldo inicial de cada objeto
+		System.out.printf("%s balance: $ %.2f %n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: $ %.2f %n", account2.getName(), account2.getBalance());
+		
+		System.out.print("Entre com uma quantia para depositar na conta 1: ");
+		double depositAmount = sc.nextDouble();
+		System.out.printf("%nAdding %.2f to account 1 balance %n%n", depositAmount);
+		account1.deposit(depositAmount); //Adiciona o saldo de account 1
+		
+		//Exibe os saldos
+		System.out.printf("%s balance: $%.2f %n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: $%.2f %n", account2.getName(), account2.getBalance());
+		
+		
+		System.out.print("Entre com uma quantia para depositar na conta 2: ");
+		depositAmount = sc.nextDouble();
+		System.out.printf("%nAdicionando %.2f ao balance da conta 2 %n%n", depositAmount);
+		account2.deposit(depositAmount); //Adiciona o saldo de account 1
+		
+		//Exibe os saldos
+		System.out.printf("%s balance: $%.2f %n", account1.getName(), account1.getBalance());
+		System.out.printf("%s balance: $%.2f %n", account2.getName(), account2.getBalance());
+		
+		sc.close();
+
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/felipe/Documentos/Java/Exercicios/.metadata/.plugins/org.eclipse.jdt.core
+1498449048.index
+589720654.index
+2956140973.index
+777499662.index
+1865797976.index

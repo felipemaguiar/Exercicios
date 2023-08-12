@@ -1,0 +1,25 @@
+package cap04;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String name = JOptionPane.showInputDialog("Nome: ");
+		
+				
+		Double media;
+		
+		
+		
+		Student account1 = new Student(name,22.5);
+		
+		
+		sc.close();
+	}
+}

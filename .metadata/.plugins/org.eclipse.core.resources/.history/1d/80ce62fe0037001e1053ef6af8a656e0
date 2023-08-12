@@ -1,0 +1,33 @@
+package cap03;
+
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		//Cria um objeto Account e o atribui a minhaConta
+		Account minhaConta = new Account();
+		
+		//Exibe o valor inicial do nome (null)
+		System.out.printf("Nome inicial é: %s%n%n", minhaConta.getName());
+		
+		//Solicita e le o nome
+		System.out.print("Digite seu nome: ");
+		String nome = sc.nextLine(); // Coleta o nome
+		minhaConta.setName(nome); // insere o nome em minhaConta
+		System.out.println(); // imprime uma linha em branco
+		
+		//Exibe o nome armazenado no objeto minhaConta
+		System.out.printf("Nome registrado no objeto minha conta é: %n%s%n", minhaConta.getName());
+		
+		nome = sc.next();
+		System.out.printf("Nome registrado no objeto minha conta é: %n%s%n", minhaConta.getName());
+		
+		sc.close();
+
+		
+	}
+
+}
