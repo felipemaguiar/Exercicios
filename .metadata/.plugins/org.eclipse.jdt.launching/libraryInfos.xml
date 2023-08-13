@@ -2,4 +2,5 @@
 <libraryInfos>
     <libraryInfo home="/snap/eclipse/67/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933/jre" version="17.0.5"/>
     <libraryInfo home="/snap/eclipse/67/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933" version="17.0.5"/>
+    <libraryInfo home="C:\Program Files\Java\zulu17.36.17-ca-jdk17.0.4.1-win_x64" version="17.0.4.1"/>
 </libraryInfos>
