@@ -9,6 +9,8 @@
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="desenhoGUI.Shapes"/>
     <fullyQualifiedTypeName name="desenhoGUI.DrawPanel"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="cap06.craps.Status"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="cap06.DrawSmiley"/>
 </qualifiedTypeNameHistroy>
