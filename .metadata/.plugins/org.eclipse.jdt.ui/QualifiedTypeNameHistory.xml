@@ -13,4 +13,9 @@
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="cap06.DrawSmiley"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="cap07.Card"/>
+    <fullyQualifiedTypeName name="cap07.DeckOfCards"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="cap07.GradeBook"/>
 </qualifiedTypeNameHistroy>
